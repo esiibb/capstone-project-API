@@ -3,7 +3,7 @@ const tf = require('@tensorflow/tfjs-node');
 const path = require('path');
 const fs = require('fs');
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 // data untuk 20 saham 
 const stocks = [
